@@ -1,4 +1,4 @@
-/*@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
  
 body {
     margin: 0px;
@@ -20,6 +20,7 @@ body {
     list-style-type: none;
     width: 100%;
     margin-right: 2%;
+    font-weight: 600;
 }
 .ul_header li {
     margin: 0 10px ;
@@ -50,5 +51,34 @@ body {
 h1{
     color: white;
     font-size: 2rem;
-
+    
+}
+/*****SECTION ARTICLES******/
+.container_articles {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    align-items: center;
+    width: 60%;
+ 
+}
+.container_premier_paragraphe {
+    font-weight: 600;
+    text-align: center;
+}
+.container_trois_articles {
+    display: flex;
+    margin-top: 10%;
+    font-weight: 600;
+}
+.aticles_du_container_articles{
+    padding: 0 2%;
+}
+/*****DESCRIPTION AUTHOR*******/
+.container_paragraphe_author {
+        font-weight: 600;
+        text-align: center;
+}
+.author {
+    opacity: 0.6;
 }
