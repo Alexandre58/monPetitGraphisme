@@ -1,17 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
  
 body {
-    margin: 0px;
-    padding: 0;
+    margin: auto;
+    padding: 10px;
     font-family: 'Roboto', sans-serif;
+    max-width: 1200px; 
 } 
-/**************HEADER***********/
+/**************HEADER_logo_accueil_contact***********/
 .container_header {
     display: flex;
     justify-content: space-between;   
 }
 .container_header_img {
-    height: 70px;
+    height: 105px;
+    
 }
 .ul_header {
     display: flex;
@@ -27,7 +29,7 @@ body {
 }
 
 
-/***********IMAGE EN TETE********/
+/***********IMAGE-EN-TETE-sous-header********/
 .container_image_en_tete {
     position: relative;
     display:flex;
@@ -53,7 +55,7 @@ h1{
     font-size: 2rem;
     
 }
-/*****SECTION ARTICLES******/
+/*****SECTION ARTICLES-sous-image-en-tête******/
 .container_articles {
     display: flex;
     flex-direction: column;
@@ -63,6 +65,7 @@ h1{
  
 }
 .container_premier_paragraphe {
+    font-size: 1.5rem;
     font-weight: 600;
     text-align: center;
 }
@@ -73,12 +76,52 @@ h1{
 }
 .aticles_du_container_articles{
     padding: 0 2%;
+    text-align: center;
 }
 /*****DESCRIPTION AUTHOR*******/
 .container_paragraphe_author {
+        width: 70%;
+        margin-top: 50px;
         font-weight: 600;
-        text-align: center;
+        text-align: center; 
+}
+.description_author {
+    font-size: 1.2rem;
 }
 .author {
+    opacity: 0.8;
+}
+/**********FOOTER*********/
+.container_footer {
+    color:white;
+    font-weight: 500;
+    background-color: #5b359d;
+    
+}
+body .footer_h3 {
+      padding-top: 50px;
+      font-size: 0.9rem;
+      text-align: center;
+}
+.logo_reseau-sociaux {
+    display: flex;
+    justify-content: center;
+    width: 100%; 
+}
+.logo_reseau-sociaux i {
+    font-size: 1.5rem;
+    padding: 0 30px 0 30px;
     opacity: 0.6;
 }
+
+.footer_articles {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 0 100px 0;
+    font-weight: 600;
+}
+.footer_articles article p {
+    opacity: 0.8;
+}
+
+
