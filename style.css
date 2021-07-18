@@ -6,14 +6,14 @@ body {
     font-family: 'Roboto', sans-serif;
     max-width: 1200px; 
 } 
+
 /**************HEADER_logo_accueil_contact***********/
 .container_header {
     display: flex;
     justify-content: space-between;   
 }
 .container_header_img {
-    height: 105px;
-    
+    height: 105px;   
 }
 .ul_header {
     display: flex;
@@ -27,8 +27,6 @@ body {
 .ul_header li {
     margin: 0 10px ;
 }
-
-
 /***********IMAGE-EN-TETE-sous-header********/
 .container_image_en_tete {
     position: relative;
@@ -56,13 +54,15 @@ h1{
     
 }
 /*****SECTION ARTICLES-sous-image-en-tête******/
+.h2InvisibleW3C{
+    display: none;
+}
 .container_articles {
     display: flex;
     flex-direction: column;
     margin: auto;
     align-items: center;
     width: 60%;
- 
 }
 .container_premier_paragraphe {
     font-size: 1.5rem;
@@ -120,7 +120,7 @@ body .footer_h3 {
     padding: 20px 0 100px 0;
     font-weight: 600;
 }
-.footer_articles article p {
+.footer_articles article h4 {
     opacity: 0.8;
 }
 
